@@ -8,6 +8,15 @@ authors = ["Sanhe Hu <husanhe@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
+acore_constants = "0.2.1"
+acore_paths = "0.3.2"
+acore_conf = "0.1.2"
+acore_server_metadata = "1.1.1"
+acore_server_config = "0.6.2"
+acore_server = "1.1.2"
+acore_soap_app = "0.3.6"
+acore_db_app = "0.2.4"
+acore_server_bootstrap = "1.0.1"
 
 # --- addtitional dependencies for development
 [tool.poetry.group.dev]

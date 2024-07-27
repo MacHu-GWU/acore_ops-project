@@ -33,14 +33,14 @@ if __name__ == "__main__":
     # --------------------------------------------------------------------------
     # Create Cloned Server
     # --------------------------------------------------------------------------
-    # workflow_id = "create_cloned_server-2024-06-19-04-27-00"
+    # workflow_id = "create_cloned_server-2024-06-25-09-22-00"
     # server.create_cloned_server(
     #     bsm=bsm,
     #     workflow_id=workflow_id,
     #     s3path_workflow=manager.s3dir_env_workflow.joinpath(
     #         server.server_name, f"{workflow_id}.json"
     #     ),
-    #     new_server_id="sbx-blue",
+    #     new_server_id="sbx-black",
     #     stack_exports=manager.stack_exports,
     #     skip_reboot=True,
     #     delete_ami_afterwards=True,

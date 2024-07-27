@@ -41,12 +41,12 @@ if __name__ == "__main__":
     # https://acore-server-bootstrap.readthedocs.io/en/latest/search.html?q=Rerun+Bootstrap+on+First+Launch+EC2&check_keywords=yes&area=default
     # for more details
     # ------------------------------------------------------------------------------
-    # remoter.install(
-    #     python_version="3.11",
-    #     acore_soap_app_version="0.3.6",
-    #     acore_db_app_version="0.2.3",
-    #     acore_server_bootstrap_version="1.0.1",
-    # )
+    remoter.install(
+        python_version="3.11",
+        acore_soap_app_version="0.3.7",
+        acore_db_app_version="0.2.3",
+        acore_server_bootstrap_version="1.1.1",
+    )
 
     # ------------------------------------------------------------------------------
     # Restart worldserver with Updated Configuration

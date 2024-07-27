@@ -23,7 +23,7 @@ config = acore_server_config.Config.read(
 )
 
 s3folder_config = (
-    S3Path(f"s3://{bsm.aws_account_id}-{bsm.aws_region}-artifacts")
+    S3Path(f"s3://{bsm.aws_account_alias}-{bsm.aws_region}-artifacts")
     .joinpath(
         "projects",
         "acore_server_config",
